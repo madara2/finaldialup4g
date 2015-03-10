@@ -191,75 +191,11 @@
             
                 <!--BEGIN CONTENT-->
                 <div class="page-content">
-                    <div id="tab-general">
-                        <div id="sum_box" class="row mbl">
-                          <div class="col-sm-6 col-md-3">
-                                <div class="panel profit db mbm">
-                                    <div class="panel-body">
-                                        <p class="icon">
-                                            <i class="icon fa fa-shopping-cart"></i>
-                                        </p>
-                                        <h4 class="value">
-                                            <span data-counter="" data-start="10" data-end="50" data-step="1" data-duration="0">
-                                            </span><span></span></h4>
-                                        <p class="description">
-                                            Total Product</p>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-sm-6 col-md-3">
-                                <div class="panel task db mbm">
-                                    <div class="panel-body">
-                                        <p class="icon">
-                                            <i class="icon fa fa-signal"></i>
-                                        </p>
-                                        <h4 class="value">
-                                            <span>215</span></h4>
-                                        <p class="description">
-                                            Task completed</p>
-                                        <div class="progress progress-sm mbn">
-                                            <div role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
-                                                style="width: 50%;" class="progress-bar progress-bar-danger">
-                                                <span class="sr-only">50% Complete (success)</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                    <div class="col-sm-6 col-md-3">
-                                <div class="panel visit db mbm">
-                                    <div class="panel-body">
-                                        <p class="icon">
-                                            <i class="icon fa fa-group"></i>
-                                        </p>
-                                        <h4 class="value">
-                                            <span></span></h4>
-                                        <p class="description">
-                                            Registered Users </p>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     
-                    <div id="tab-general">
-                        <div class="row mbl">
-                            <div class="col-lg-12">
-                                <div class="col-md-12">
-                                    <div id="area-chart-spline" style="width: 100%; height: 300px; display: none;">
-                                    </div>
-                                </div>
-                            </div>
-                           
-                                        
-                                   
-                <!--END FOOTER-->
-            </div>
-            <!--END PAGE WRAPPER-->
-        </div>
-    </div>
+                    
+                    
+                </div>
+    
     <script src="script/jquery-1.10.2.min.js"></script>
     <script src="script/jquery-migrate-1.2.1.min.js"></script>
     <script src="script/jquery-ui.js"></script>
