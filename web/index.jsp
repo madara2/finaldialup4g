@@ -29,8 +29,46 @@
         <!--aditional JS imports end-->
 
     </head>
-<%@ include file="top.jsp" %>
-      <body>
+
+    <body>
+    <body class="container-fluid" style="padding: 5px;">
+        <nav class="navbar navbar-default">
+            <div>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" style="color: #0099ff">DialUp 4G</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+
+
+                        <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span> Shoping Cart</a>
+                        <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-ok-circle"></span> Shoping Cart</a>
+                        <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                        <a href="#" class="btn btn-danger"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
+                    </form> 
+
+                    <ul class="nav navbar-nav navbar-right"> 
+
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
 
         <!-- left menu1 -->
         <div class="col-md-2">
@@ -43,7 +81,7 @@
                 <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>MICROSOFT</a></li>
                 <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>HTC</a></li>
                 <!-- left menu2 -->                 
-                
+
                 <ul class="nav nav-pills nav-stacked">
                     <li class="active"><a <i class="fa fa-home fa-fw"></i>Category</a></li>
                     <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>NOKIA</a></li>
@@ -54,61 +92,61 @@
                     <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>HTC</a></li>
 
                     </div> 
-       
-        <div class="centertext"> <p class="bg-title">v</p>
-                        <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
-                        </div>
-                         <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                        </div>
-                        
-                         <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                         </div>
-                        <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
-                        </div>
-            <br>        <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
-                        </div>
-                         <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                        </div>
-                        
-                         <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                         </div>
 
-                         <div class="prod_box"> 
+                    <div class="centertext"> <p class="bg-title">v</p>
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                         </div>
-            <br>        <div class="prod_box"> 
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                        </div>
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                         </div>
-                         <div class="prod_box"> 
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                        </div>
+
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                         </div>
-                         <div class="prod_box"> 
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                        </div>
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                         </div>
-                         <div class="prod_box"> 
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                        </div>
+                        <br>        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                                <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                         </div>
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                        </div>
+                        <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                        </div>
+
+                        <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                        </div>
+
+                        <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                        </div>
+                        <br>        <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                        </div>
+                        <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                        </div>
+                        <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                        </div>
+                        <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                        </div>
                     </div>
-        
+
                     <div class="col-md-2">
                         <ul class="nav nav-pills nav-stacked">
                             <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i>Category</a></li>
@@ -119,20 +157,108 @@
                             <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>MICROSOFT</a></li>
                             <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>HTC</a></li>
                         </ul></div>
-        <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="col-md-2">
-<div class="fb-like-box" data-href="https://www.facebook.com/pages/DialUp-4G/662747223843885?ref=br_tf" data-width="200px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-</div>
+                    <div id="fb-root"></div>
+                    <script>(function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id))
+                                return;
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="col-md-2">
+                        <div class="fb-like-box" data-href="https://www.facebook.com/pages/DialUp-4G/662747223843885?ref=br_tf" data-width="200px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+                    </div>
 
 
+                    <div class="container" style="height: 200px">
+                        <div class="recommended_items"><!--recommended_items-->
+                            <h2 class="title text-center">recommended items</h2>
 
-<%@ include file="test.jsp" %>
+                            <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">	
+                                        <div class="col-sm-4">
+                                            <div class="product-image-wrapper">
+                                                <div class="single-products">
+                                                    <div class="productinfo text-center">
+                                                        <img src="images/home/recommend1.jpg" alt="" />
+                                                        <h2>$56</h2>
+                                                        <p>Easy Polo Black Edition</p>
+                                                        <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="product-image-wrapper">
+                                                <div class="single-products">
+                                                    <div class="productinfo text-center">
+                                                        <img src="images/home/recommend2.jpg" alt="" />
+                                                        <h2>$56</h2>
+                                                        <p>Easy Polo Black Edition</p>
+                                                        <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="product-image-wrapper">
+                                                <div class="single-products">
+                                                    <div class="productinfo text-center">
+                                                        <img src="images/home/recommend3.jpg" alt="" />
+                                                        <h2>$56</h2>
+                                                        <p>Easy Polo Black Edition</p>
+                                                        <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">	
+                                        <div class="col-sm-4">
+                                            <div class="product-image-wrapper">
+                                                <div class="single-products">
+                                                    <div class="productinfo text-center">
+                                                        <img src="images/home/recommend1.jpg" alt="" />
+                                                        <h2>$56</h2>
+                                                        <p>Easy Polo Black Edition</p>
+                                                        <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="product-image-wrapper">
+                                                <div class="single-products">
+                                                    <div class="productinfo text-center">
+                                                        <img src="images/home/recommend2.jpg" alt="" />
+                                                        <h2>$56</h2>
+                                                        <p>Easy Polo Black Edition</p>
+                                                        <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="product-image-wrapper">
+                                                <div class="single-products">
+                                                    <div class="productinfo text-center">
+                                                        <img src="images/home/recommend3.jpg" alt="" />
+                                                        <h2>$56</h2>
+                                                        <p>Easy Polo Black Edition</p>
+                                                        <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div><!--/recommended_items-->
+
+
 
 
