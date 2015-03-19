@@ -51,7 +51,7 @@
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Search">
                         </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
                         
                         
                         <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span> Shoping Cart</a>

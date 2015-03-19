@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Bootstrap</title>
+        <title>Dialup4G | HOME</title>
 
         <!-- Bootstrap CSS-->
         <link href="styles/bootstrap.css" rel="stylesheet">
@@ -13,11 +13,6 @@
         <link href="styles/bootstrap-theme.css" rel="stylesheet">
         <link href="styles/bootstrap-theme.min.css" rel="stylesheet">
         <link href="styles/new.css" rel="stylesheet">
-
-
-        <!--aditional CSS imports-->
-
-        <!--aditional CSS imports end-->
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="script/jquery.min.js"></script>
@@ -53,7 +48,7 @@
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Search">
                         </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
 
 
                         <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span> Shoping Cart</a>
@@ -84,78 +79,546 @@
 
                 <ul class="nav nav-pills nav-stacked">
                     <li class="active"><a <i class="fa fa-home fa-fw"></i>Category</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>APPLE</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>HTC</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>MICROSOFT</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>NOKIA</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>SAMSUNG</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>SONY</a></li>
+                    <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>APPLE</a></li>
+                    <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>HTC</a></li>
+                    <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>MICROSOFT</a></li>
+                    <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>NOKIA</a></li>
+                    <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>SAMSUNG</a></li>
+                    <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>SONY</a></li>
 
                     </div> 
 
                     <div class="centertext"> <p class="bg-title">v</p>
                         <div class="prod_box"> 
                             <div class="col-sm-4"></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
                             <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
                         <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
 
-                        <div class="prod_box"> 
+                         <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                        </div>
-                        <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
                             <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
+                        </div>
+                       <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
                         <br>        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
                             <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
                         <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
 
-                        <div class="prod_box"> 
+                       <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
 
-                        <div class="prod_box"> 
+                         <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
                         <br>        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
                         <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
+                        </div>
+                     <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
                         <div class="prod_box"> 
                             <div class="col-sm-4"></div>
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
-                        </div>
-                        <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt=""  /></a></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Quantity
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save.........
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
                         </div>
                     </div>
 
                     <div class="col-md-2">
                         <ul class="nav nav-pills nav-stacked">
                             <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i>Category</a></li>
-                            li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>APPLE</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>HTC</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>MICROSOFT</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>NOKIA</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>SAMSUNG</a></li>
-                <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>SONY</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>APPLE</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>HTC</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>MICROSOFT</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>NOKIA</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>SAMSUNG</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><i class="fa fa-list-alt fa-fw"></i>SONY</a></li>
                         </ul></div>
                     <div id="fb-root"></div>
                     <script>(function (d, s, id) {
