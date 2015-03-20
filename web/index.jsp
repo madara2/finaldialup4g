@@ -45,7 +45,7 @@
                     <ul class="nav navbar-nav">
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
+                        <div class="form-group"style="margin-left:100px;">
                             <input type="text" class="form-control" placeholder="Search">
                         </div>
                         <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
@@ -106,7 +106,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -116,11 +116,98 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
+                        </div>
+                        <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Qty
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    Save
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                    Buy Now
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="prod_box"> 
+                            <div class="col-sm-4"></div>
+                            <div class="panel-heading">
+                                <h6 class="panel-title">
+                                    Item: #213213631858
+                                </h6>
+                            </div>
+
+                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
+                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                View Item
+                            </button>
+
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    Qty
+                                </span>
+                                <input type="number" class="form-control" value="1" required="">
+                                <span class="input-group-addon">  							
+                                    Stock: 10
+                                </span>
+                            </div>
+
+                            <div class="btn-group btn-group-sm" role="group">
+
+                                <button type="button" class="btn btn-info btn-block" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Add To Cart
+                                </button>
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                                     Save.........
                                 </button>
@@ -149,7 +236,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -159,13 +246,13 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                    Save.........
+                                    Save
                                 </button>
                                 <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
@@ -175,8 +262,8 @@
                             </div>
 
                         </div>
-
-                         <div class="prod_box"> 
+                        <br>        
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
                             <div class="panel-heading">
                                 <h6 class="panel-title">
@@ -193,7 +280,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -203,13 +290,13 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                    Save.........
+                                    Save
                                 </button>
                                 <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
@@ -219,7 +306,7 @@
                             </div>
 
                         </div>
-                       <div class="prod_box"> 
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
                             <div class="panel-heading">
                                 <h6 class="panel-title">
@@ -236,7 +323,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -246,13 +333,13 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                    Save.........
+                                    Save
                                 </button>
                                 <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
@@ -262,7 +349,8 @@
                             </div>
 
                         </div>
-                        <br>        <div class="prod_box"> 
+
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
                             <div class="panel-heading">
                                 <h6 class="panel-title">
@@ -279,7 +367,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -289,11 +377,11 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                                     Save.........
                                 </button>
@@ -322,7 +410,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -332,13 +420,13 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                    Save.........
+                                    Save
                                 </button>
                                 <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
@@ -348,8 +436,8 @@
                             </div>
 
                         </div>
-
-                       <div class="prod_box"> 
+                        <br> 
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
                             <div class="panel-heading">
                                 <h6 class="panel-title">
@@ -366,7 +454,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -376,13 +464,13 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                    Save.........
+                                    Save
                                 </button>
                                 <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
@@ -392,8 +480,7 @@
                             </div>
 
                         </div>
-
-                         <div class="prod_box"> 
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
                             <div class="panel-heading">
                                 <h6 class="panel-title">
@@ -410,7 +497,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -420,13 +507,13 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                    Save.........
+                                    Save
                                 </button>
                                 <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
@@ -436,7 +523,8 @@
                             </div>
 
                         </div>
-                        <br>        <div class="prod_box"> 
+
+                        <div class="prod_box"> 
                             <div class="col-sm-4"></div>
                             <div class="panel-heading">
                                 <h6 class="panel-title">
@@ -453,7 +541,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -463,11 +551,11 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                                     Save.........
                                 </button>
@@ -496,7 +584,7 @@
 
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    Quantity
+                                    Qty
                                 </span>
                                 <input type="number" class="form-control" value="1" required="">
                                 <span class="input-group-addon">  							
@@ -506,13 +594,13 @@
 
                             <div class="btn-group btn-group-sm" role="group">
 
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
+                                <button type="button" class="btn btn-info btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                     Add To Cart
                                 </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                                <button type="button" class="btn btn-warning btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                    Save.........
+                                    Save
                                 </button>
                                 <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
                                     <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
@@ -522,92 +610,7 @@
                             </div>
 
                         </div>
-                     <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                            <div class="panel-heading">
-                                <h6 class="panel-title">
-                                    Item: #213213631858
-                                </h6>
-                            </div>
-
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
-                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
-                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                                View Item
-                            </button>
-
-
-                            <div class="input-group">
-                                <span class="input-group-addon">
-                                    Quantity
-                                </span>
-                                <input type="number" class="form-control" value="1" required="">
-                                <span class="input-group-addon">  							
-                                    Stock: 10
-                                </span>
-                            </div>
-
-                            <div class="btn-group btn-group-sm" role="group">
-
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                                    Add To Cart
-                                </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                    Save.........
-                                </button>
-                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
-                                    Buy Now
-                                </button>
-
-                            </div>
-
-                        </div>
-                        <div class="prod_box"> 
-                            <div class="col-sm-4"></div>
-                            <div class="panel-heading">
-                                <h6 class="panel-title">
-                                    Item: #213213631858
-                                </h6>
-                            </div>
-
-                            <div class="product_img"><a href="#"><img src="image/1.jpg" alt="" /></a></div>
-                            <button type="button" class="btn btn-primary btn-sm btn-block" aria-label="Left Align">
-                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                                View Item
-                            </button>
-
-
-                            <div class="input-group">
-                                <span class="input-group-addon">
-                                    Quantity
-                                </span>
-                                <input type="number" class="form-control" value="1" required="">
-                                <span class="input-group-addon">  							
-                                    Stock: 10
-                                </span>
-                            </div>
-
-                            <div class="btn-group btn-group-sm" role="group">
-
-                                <button type="button" class="btn btn-info" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                                    Add To Cart
-                                </button>
-                                <button type="button" class="btn btn-warning" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                    Save.........
-                                </button>
-                                <button type="button" class="btn btn-danger btn-sm btn-block" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
-                                    Buy Now
-                                </button>
-
-                            </div>
-
-                        </div>
+                        <br> 
                     </div>
 
                     <div class="col-md-2">
