@@ -30,7 +30,7 @@
 
     </head>
     <body class="container-fluid" style="padding: 5px;">
-        <nav class="navbar navbar-default">
+            <nav class="navbar navbar-default">
             <div>
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -48,34 +48,27 @@
                     <ul class="nav navbar-nav">
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
+                        <div class="form-group"style="margin-left:100px;">
                             <input type="text" class="form-control" placeholder="Search">
                         </div>
                         <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-                        
-                        
+
+
                         <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span> Shoping Cart</a>
-                        <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-ok-circle"></span> Shoping Cart</a>
+                        <a href="#" class="btn btn-info"><span class=" glyphicon glyphicon-heart"></span> wish list</a>
+                        <a href="login.jsp" class="btn btn-info"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                        <a href="#" class="btn btn-danger"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
                     </form> 
-                    
+
                     <ul class="nav navbar-nav navbar-right"> 
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Registration</a></li>
-                                
-                            </ul>
-                        </li>
+
 
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
 
-    </body>
-</html>
-        
+
     </head>
     <body>
       <div class="container">
@@ -88,7 +81,7 @@
             <h2>New Customer</h2>
             <p><strong>Register Account</strong></p>
             <p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
-            <a href="register.jsp" class="btn btn-primary">Continue</a></div>
+            <a href="cus_regis.jsp" class="btn btn-primary">Continue</a></div>
         </div>
         <div class="col-sm-6">
           <div class="well">

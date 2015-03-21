@@ -44,7 +44,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   line-height: 1.42857143;
-  color: #999999;
+  color: #000000;
   background-color: #f0f2f5;
   height: 100%;
 }
@@ -126,7 +126,7 @@ hr {
 #page-wrapper {
   min-height: 100%;
   padding: 0 !important;
-  background-color: #f0f2f5;
+  /* background-color: #FFFFFF; */
   transition: 0.3s all linear;
 }
 @media (min-width: 768px) {

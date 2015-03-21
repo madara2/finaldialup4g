@@ -29,6 +29,7 @@
         <!--aditional JS imports end-->
 
     </head>
+    
     <div class="container dynamicTile" style="color: blue;">
     <div class="row">
         <div class="col-sm-4 col-xs-8">

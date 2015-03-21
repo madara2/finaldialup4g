@@ -37,7 +37,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#" style="color: #0099ff">DialUp 4G</a>
+                    <a class="navbar-brand" href="index.jsp" style="color: #0099ff">DialUp 4G</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -52,8 +52,8 @@
 
 
                         <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span> Shoping Cart</a>
-                        <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-ok-circle"></span> Shoping Cart</a>
-                        <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                        <a href="#" class="btn btn-info"><span class=" glyphicon glyphicon-heart"></span> wish list</a>
+                        <a href="login.jsp" class="btn btn-info"><span class="glyphicon glyphicon-log-in"></span> Login</a>
                         <a href="#" class="btn btn-danger"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
                     </form> 
 
